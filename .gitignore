@@ -1,0 +1,18 @@
+# Private AWS files
+.env
+*.env
+.aws/
+*.pem
+*credentials*
+
+# Python files
+.venv/
+__pycache__/
+*.pyc
+
+# Node.js files
+node_modules/
+
+# Temporary files
+*-instance-id.txt
+.DS_Store
