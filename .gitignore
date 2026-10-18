@@ -15,4 +15,5 @@ node_modules/
 
 # Temporary files
 *-instance-id.txt
+instance_ids.txt
 .DS_Store
