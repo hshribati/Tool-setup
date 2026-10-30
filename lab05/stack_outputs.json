@@ -1,0 +1,9 @@
+{
+  "alb_arn": "arn:aws:elasticloadbalancing:us-east-2:100995727963:loadbalancer/app/itmo-444-544-app-alb/bbb5331ec72f0a48",
+  "alb_dns": "itmo-444-544-app-alb-278880882.us-east-2.elb.amazonaws.com",
+  "alb_sg_id": "sg-01e90d93d40b12f55",
+  "uploader_tg_arn": "arn:aws:elasticloadbalancing:us-east-2:100995727963:targetgroup/itmo-444-544-uploader-tg/af41bf4fe17af1d1",
+  "uploader_url": "http://itmo-444-544-app-alb-278880882.us-east-2.elb.amazonaws.com:8080",
+  "viewer_tg_arn": "arn:aws:elasticloadbalancing:us-east-2:100995727963:targetgroup/itmo-444-544-viewer-tg/2eb98aba85f4801f",
+  "viewer_url": "http://itmo-444-544-app-alb-278880882.us-east-2.elb.amazonaws.com:8081"
+}

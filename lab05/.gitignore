@@ -1,0 +1,17 @@
+
+# Python virtual environments
+.venv/
+.venv-docker/
+
+# Python and pytest cache files
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Environment and secret files
+.env
+.env.*
+!.env.example
+
+# Dependencies
+node_modules/
