@@ -1,0 +1,23 @@
+
+# Python virtual environments
+.venv/
+.venv-docker/
+
+# Python and pytest cache files
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Environment and secret files
+.env
+.env.*
+!.env.example
+
+# Dependencies
+node_modules/
+
+# Generated AWS outputs
+stack_outputs*.json
+
+# Generated EC2 launch data
+*-launch-data.json
