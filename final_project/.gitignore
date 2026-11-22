@@ -1,0 +1,44 @@
+
+# Python virtual environments
+.venv/
+.venv-docker/
+
+# Python and pytest cache files
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Environment and secret files
+.env
+.env.*
+!.env.example
+
+# Dependencies
+node_modules/
+
+# Generated AWS outputs
+stack_outputs*.json
+
+# Generated EC2 launch data
+*-launch-data.json
+
+# Mac virtual environment backup
+.venv_mac_backup/
+
+# Load test results
+tests/load/results*.csv
+
+# Additional local files and backups
+.venv*/
+*.backup
+*.deb
+__pycache__/
+.pytest_cache/
+Mini lab screenshots.pdf
+
+# Project backup files
+*_backup.*
+*.before_*
+app_before_*.js
+previous/
+testing/
